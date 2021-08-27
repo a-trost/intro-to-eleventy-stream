@@ -1,0 +1,19 @@
+{
+  "name": "galloping-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy",
+    "dev": "eleventy --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-img": "^0.10.0",
+    "eleventy-plugin-embed-everything": "^1.13.3",
+    "eleventy-plugin-sass": "^1.2.0"
+  }
+}
